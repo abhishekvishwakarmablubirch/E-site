@@ -1,0 +1,7 @@
+{
+  "name": "esite",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

@@ -1,0 +1,74 @@
+
+
+<ion-content class="content">
+  <ion-row style="margin-left: 4%; margin-right: 5%; margin-top: 10%;">
+    <ion-col size-md="4" size="12" class="cardclass">
+      <ion-card style="background-color: white">
+        <ion-card-header>
+          <div style="display: flex">
+          <ion-icon name="cart-outline" slot="start" style="font-size: 300%;">
+          </ion-icon>
+          <ion-card-title style="color: black; font-size: 250%;" >E-Site</ion-card-title>
+          </div>
+          <ion-card-subtitle>This web site is use for buy and sell the product</ion-card-subtitle>
+        </ion-card-header>
+
+        <ion-card-content>  </ion-card-content>
+      </ion-card>
+    </ion-col>
+    <ion-col size-md="6" size="12" class="textClass">
+      {{aboutTitle}}
+      <ion-button id="present-alert">Contact Us</ion-button>
+      <ion-alert
+        trigger="present-alert"
+        header="Contact Us"
+        [buttons]="alertButtons"
+        [inputs]="alertInputs"
+      ></ion-alert>
+      
+    </ion-col>
+
+  </ion-row> 
+  <ion-row>
+    <div class="divclass">
+      <ion-card  class="style">
+        <ion-row class="card1">
+          <ion-col class="card">
+            <ion-card class="firstCard">
+              <iframe class="video" loading="lazy"
+              frameborder="0"
+              allow="accelerometer; autoplay;
+              encrypted-media; gyroscope;
+              picture-in-picture" src="../../../assets/video.mp4"> 
+              
+              </iframe>
+              <div class="overlay">
+                <div class="text">Product is lunching in  <b>12-12-2023</b></div>
+              </div>
+            </ion-card>
+            
+          </ion-col>
+          <ion-col class="card">
+            <ion-card class="firstCard">
+              <img alt="Silhouette of mountains" src="../../../assets/grading.gif" />
+              <div class="overlay">
+                <div class="text">Product is lunching in  <b>12-12-2023</b></div>
+              </div>
+            </ion-card>
+            <!-- <ion-button class="buttonClick">
+              <a href="https://blubirch.com/" target="_blank" class="clickClass">Click here</a>
+            </ion-button> -->
+          </ion-col>
+          <ion-col class="card">
+            <ion-card class="firstCard">
+              <img alt="Silhouette of mountains" src="../../../assets/laptop.png" />
+              <div class="overlay" >
+                <div class="text" >Product is lunching in  <b>12-12-2023</b></div>
+              </div>
+            </ion-card>
+          </ion-col>
+        </ion-row>
+      </ion-card>
+    </div>
+  </ion-row>
+</ion-content>

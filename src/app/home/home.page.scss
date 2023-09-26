@@ -1,0 +1,145 @@
+#container {
+    text-align: center;
+
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#container strong {
+    font-size: 20px;
+    line-height: 26px;
+}
+
+#container p {
+    font-size: 16px;
+    line-height: 22px;
+
+    color: #8c8c8c;
+
+    margin: 0;
+}
+
+#container a {
+    text-decoration: none;
+}
+
+.home {
+    margin-top: 0;
+}
+
+.logo {
+    height: 80px;
+    width: 150px;
+    margin-left: auto;
+}
+
+.header {
+    // justify-content: space-between;
+    display: flex;
+    height: 10%;
+    margin-left: 5%;
+    --background: linear-gradient(0.25turn, #f69d3c, #ebf8e1, #3f87a6) !important;
+}
+
+.nav-item {
+    padding: auto;
+    margin: 10%;
+    white-space: nowrap;
+}
+
+.nav-link {
+    color: #212982;
+    font-size: large;
+    font-size: 20px;
+    font-weight: 500;
+}
+.style{
+    background: transparent !important;
+    margin-left: 5.1%; 
+    margin-right: 4%;
+}
+
+
+.content {
+    --background: linear-gradient(0.25turn, #f69d3c, #ebf8e1, #3f87a6) !important;
+    margin-left: 20%;
+}
+
+.card {
+    height: 20%;
+    width: 20%;
+    padding-left: 2%;
+    padding-right: 2%;
+    background: transparent !important;
+    border-radius: 20px;
+    margin: 40px;
+}
+
+.textClass {
+    margin-top: 10px;
+    margin-left: 5%;
+    font-style: italic;
+    color: black;
+    white-space: 4px;
+    font-variant: small-caps;
+}
+.cardclass{
+    margin-left: 4%;
+}
+
+.buttonClick {
+    --border-radius: 50px;
+    width: 50%;
+    --background: transparent;
+}
+
+.clickClass {
+    color: #030503;
+    font-size: 16PX;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: none;
+}
+.video{
+    height: 100%;
+   
+}
+.firstCard{
+    height: 292px;
+    transition: .5s;
+    // opacity: 1;
+    border: 0px;
+}
+
+.firstCard:hover{
+    height: 330px;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #4a8cb2ea;
+  }
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+.firstCard:hover .overlay{    
+    opacity: 1;
+}

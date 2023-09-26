@@ -1,0 +1,19 @@
+<ion-header class="header">
+  <div class="headerClass">
+    <ion-img src="../../../assets/logo.svg" class="logo"></ion-img>
+  </div>
+
+  <div style="display: flex; margin-left: 55%;">
+  
+    <ul class="navbar-nav me-auto mb-2 mb-lg-0" style="display: contents; margin: 30%;"  *ngFor="let menu of headers; let i = index">
+      <li class="nav-item classCursor"  [routerLink]="[menu.href]" >
+        <a  class="nav-link" aria-current="page" [routerLinkActive]="['is-activemenu']" style="padding: 5px;">
+          {{menu.name}}
+        </a>
+      </li>
+    </ul>
+
+
+  </div>
+
+</ion-header>

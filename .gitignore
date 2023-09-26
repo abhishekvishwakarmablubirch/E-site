@@ -1,0 +1,51 @@
+# Node.js dependencies
+node_modules/
+
+# Compiled output
+/dist/
+/tmp/
+/out-tsc/
+/.awcache/
+
+# Logs
+*.log
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Editor-specific files
+.idea/
+.vscode/
+*.sublime-*
+
+# Environment configuration
+.env
+.env.*
+
+# Angular configuration files
+angular.json
+*.iml
+*.ipr
+*.iws
+
+# TypeScript configuration
+tsconfig.json
+tsconfig.*.json
+
+# IDE files
+.idea/
+
+# End-to-end tests
+e2e/*.log
+e2e/*.json
+
+# Angular CLI environment file
+src/environments/environment.ts
+
+# Prettier config file
+.prettierrc
+.angular/
+
+# Node.js package manager cache
+.npm
